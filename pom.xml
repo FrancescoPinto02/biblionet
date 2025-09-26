@@ -18,6 +18,7 @@
 
     <properties>
         <java.version>11</java.version>
+        <sonar.organization>provasoftware</sonar.organization>
     </properties>
 
     <dependencies>
