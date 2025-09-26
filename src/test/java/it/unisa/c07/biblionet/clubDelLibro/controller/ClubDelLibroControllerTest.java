@@ -705,7 +705,7 @@ public class ClubDelLibroControllerTest {
                 .andExpect(status().isBadRequest())
                 .andExpect(result -> assertTrue(result.getResolvedException() instanceof ResponseStatusException))
                 .andExpect(result ->
-                        assertEquals("400 BAD_REQUEST \"Il libro inserito non è valido.\"", result.getResolvedException().getMessage()));
+                        assertEquals("400 BAD_REQUEST \"Data non valida.\"", result.getResolvedException().getMessage()));
 
     }
 
